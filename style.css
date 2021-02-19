@@ -883,7 +883,7 @@ footer p {
     .main {
         background: none;
         padding-left: 50px;
-        height: 100vh;
+        max-height: 100vh;
     }
 
     .main .main-img {

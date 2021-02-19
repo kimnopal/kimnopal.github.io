@@ -5,10 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    overflow: hidden;
-}
-
 header {
     padding: 20px 150px;
     position: absolute;
@@ -275,7 +271,7 @@ main .button a i {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     
     main {

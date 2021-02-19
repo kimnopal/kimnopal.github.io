@@ -148,7 +148,7 @@ nav .search .fa-search {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 main {
@@ -276,7 +276,7 @@ main .button a i {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-    
+        overflow: hidden;
     }
     
     main {

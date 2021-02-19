@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Winter Web</title> 
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-brand">
+                <img src="img/logo.png" alt="" class="logo">
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Category</a></li>
+                </ul>
+
+                <img src="img/cart.png" alt="" class="cart">
+            </div>
+
+            <div class="hamburger">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="content">
+            <a href="#" class="btn">2020 Collections</a>
+            <h2>You should always <br>feel pretty</h2>
+            <p>Clothes that are sure to heat up your winter</p>
+        
+            <div class="navigasi">
+                <img src="img/back-arrow.png" alt="">
+                <img src="img/next-arrow.png" alt="">
+            </div>
+        </div>
+
+        <img src="img/img.png" alt="" class="cewe">
+
+        <div class="social-links">
+            <a href="#">FACEBOOK</a>
+            <a href="#">INSTAGRAM</a>
+            <a href="#">YOUTUBE</a>
+        </div>
+    </div>
+
+
+
+    <script>
+        const hamburger = document.querySelector('.hamburger input');
+        const nav = document.querySelector('nav .nav-links');
+
+        hamburger.addEventListener('click', function(){
+            nav.classList.toggle('slide')
+        });
+    </script>
+</body>
+</html>

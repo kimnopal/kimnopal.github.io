@@ -906,9 +906,9 @@ footer p {
 
     .main .main-text {
         position: relative;
-        top: 27%;
+        top: 17%;
         z-index: 2;
-        margin-bottom: 130px;
+        margin-bottom: 210px;
     }
 
     .main .social-links {

@@ -267,7 +267,7 @@ nav .nav-links a:hover {
 }
 
 /* animasi svg */
-/* @keyframes animasiObeng {
+@keyframes animasiObeng {
     0% {
         transform: rotate(45deg);
     }
@@ -334,7 +334,7 @@ nav .nav-links a:hover {
     100% {
         opacity: .3;
     }
-} */
+}
 
 
 .main .social-links {

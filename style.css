@@ -479,7 +479,7 @@ nav .nav-links a:hover {
     left: -10px;
 }
 
-/* #obeng {
+#obeng {
     animation: animasiObeng 2s linear infinite alternate-reverse;
     transform-origin: center;
     transform-box: fill-box;
@@ -526,7 +526,7 @@ nav .nav-links a:hover {
     animation: animasiCardKiri 2s ease-in-out 1s infinite alternate-reverse;
     transform-origin: center;
     transform-box: fill-box;
-} */
+}
 
 /* animasi svg */
 @keyframes animasiObeng {

@@ -295,7 +295,9 @@ i.fck {
     }
 
     .home {
-        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     section {

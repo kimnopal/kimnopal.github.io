@@ -131,6 +131,9 @@ body.dark {
 .delete {
     width: 30.333%;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-bottom: 10px;
     box-shadow: -4px -2px 4px 0 #fff,
